@@ -1,0 +1,21 @@
+# Segredos e chaves
+.env
+*.env
+*.pem
+*.pfx
+*.p12
+*.key
+*.cer
+*.crt
+
+# Planilhas reais (dados de clientes)
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+
+# Dados locais do n8n / ferramentas
+.n8n/
+node_modules/
+.claude/
+.vscode/
