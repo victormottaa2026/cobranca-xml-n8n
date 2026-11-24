@@ -30,8 +30,8 @@ Microsoft Graph (certificado) → SharePoint (planilha .xlsx/.xlsm) → n8n → 
 
 | EMPRESA | WHATSAPP | JANEIRO | FEVEREIRO | … | DEZEMBRO |
 | --- | --- | --- | --- | --- | --- |
-| Cliente A | 21999999999 | 1 | | … | |
-| Cliente B | 21988888888 / 21977777777 | | | … | |
+| Cliente A | `TELEFONE_EXEMPLO_1` | 1 | | … | |
+| Cliente B | `TELEFONE_EXEMPLO_2` / `TELEFONE_EXEMPLO_3` | | | … | |
 
 - Coluna do mês **atual** com `1`, `SIM` ou `VERDADEIRO` = já enviou. Vazia, `0`, `FALSO` ou `NÃO` = pendente. Outro valor = pulado e listado em "Verificar na planilha".
 - O XML cobrado é o do mês anterior: em novembro, a mensagem cita outubro.
